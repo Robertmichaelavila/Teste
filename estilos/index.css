@@ -1,44 +1,88 @@
-body{
-    background: rgb(3, 3, 177);
-    margin: 0px;
+body {
+    background: #082c57;
+    margin: 0;
 }
 .nav{
-    background: #fff;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 20px;
 }
-figure.icone{
-    padding: 10px;
+img#logo{
+    padding: 10px 0px 10px 50px;
 }
 button{
     position: absolute;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 .perf{
     right: 40px;
-    top: 50px;
-    background-color: black;
+    top: 35px;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    background: #000000;
+    color: #fff;
 }
 .hist{
     right: 220px;
-    top: 50px;
-    background-color: black;
+    top: 35px;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
+    border-radius: 10px;
 }
 img.ic1{
     position: absolute;
     right: 310px;
-    top: 45px;
+    top: 25px;
 }
 img.ic2{
     position: absolute;
     right: 110px;
-    top: 45px;
+    top: 25px;
+}
+.container {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 98vw;
+    height: 87vh;
+    background-color: #082c57;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .elementos{
-    background: #fff;
+    background: #082c57;
+    width: 920px;
+    height: 800px;
+    border-radius: 50px;
+    text-align: center;
+}
+figure img{
+    padding: 10px 30px 60px 30px;
+}
+p{
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    color: #fff;
+}
+p#comp1{
+    margin-top: 140px;
+    margin-left: 50px;
 }
 footer{
-    background: #fff;
+    position: absolute;
+    left: 0px;
     text-align: center;
+    background: #ffffff;
+    width: 100%;
+    bottom: 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 20px;
 }
